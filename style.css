@@ -78,6 +78,9 @@ body{
   border-bottom: none;
   margin-right: 20px;
 }
+#nav2 > div:nth-child(5) > button{
+  display: none;
+}
 #nav2 > div:nth-child(3) > a{
   text-decoration: none;
   color: #1b1b20;
@@ -382,6 +385,195 @@ ul{
 .p-div2  > img{
   width: 100%;
 }
+#mail{
+  outline: none;
+}
+
+/* DAY-3 CSS */
+#review{
+  margin-top: -20vw;
+}
+#review > p{
+  text-align: center;
+  color: #25cf60;
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 2rem;
+}
+#review > h1{
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  padding: 0 20%;
+  width: 75vw;
+  line-height: 1.1em;
+  margin: auto;
+}
+
+#review > div:nth-child(3){
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+  margin-top: 2.5%;
+  font-size: 18px;
+}
+#review > div:nth-child(3) p{
+  cursor: pointer;
+}
+#review > div:nth-child(3) > p:nth-child(2){
+  border-bottom: 3px solid #25cf60;
+  font-weight: 700;
+  color: #212529;
+}
+#review > .list{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7%;
+}
+#review > .list > .item{
+  position: relative;
+  right: 150px;
+  width: 470px;
+  margin-right: 50px;
+  
+}
+#review > .list > .item > span{
+  font-weight: 700;
+  
+}
+#review > .list > .item > p{
+  line-height: 1.63;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 25px;
+  height: 220px;
+  overflow: hidden;
+  margin-bottom: 2%;
+}
+#review > .list > div:nth-child(3){
+  background-color: #F3F3F3;
+  border-radius: 26px;
+  width: 570px;
+  padding-bottom: 25px;
+  position:relative;
+  bottom: 30px;
+}
+#review > .list > div:nth-child(3) > span,
+#review > .list > div:nth-child(3) > p{
+  padding: 40px 70px 0px 40px;
+}
+#review > .list > div:nth-child(3) > img{
+  position:relative;
+  bottom: 30px;
+  left: 30px;
+}
+
+#review-bottom{
+  display: flex;
+  width: 70%;
+  margin: auto;
+  justify-content: space-between;
+  
+  flex-wrap: wrap;
+}
+#review-bottom > div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+#review-bottom > div > img{
+  
+  width: 50%;
+}
+/* SLACK SECTION CSS */
+#slack{
+  display: flex;
+  justify-content: center;
+  background-color: #f3f3f3;
+  margin-bottom: 5rem;
+  padding: 7rem 0 4rem;
+  margin-top: 5rem;
+  flex-wrap: wrap;
+}
+#slack > .div1{
+  width: 30%;
+}
+#slack > .div2{
+  margin-left: 100px;
+  display: grid;
+  grid-template-columns: repeat(3,100px);
+  gap: 34px 85px;
+  
+}
+#slack > .div2 > a{
+  background-color: white;
+  width: 120px;
+  height: 120px;
+  border-radius: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .2s ease-in-out;
+}
+
+#slack > .div2 > a:hover{
+  box-shadow: 2px -3px 26px 0 rgb(200 215 243 / 50%);
+}
+#slack > .div2 > a > img {
+  width: 40px;
+  height: 40px;
+}
+
+#slack > .div1 > p:nth-child(1){
+  color: #25CF60;
+  font-weight: 700;
+  margin-bottom: 7%;
+}
+#slack > .div1 > p{
+  font-size: 18px;
+  width: 80%;
+}
+#slack > .div1 > h1{
+  padding-right: 100px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 2.4rem;
+  margin-bottom: 7%;
+}
+#slack > .div1 > a:nth-child(5){
+  border-radius: 40px;
+  background-color: #25cf60;
+  color: white;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55%;
+  padding: 15px 0px;
+  margin-top: 2rem;
+  margin-bottom: 7%;
+  cursor: pointer;
+}
+#slack > .div1 > a:nth-child(5) > img{
+  width: 12%;
+  margin-right: 20px;
+}
+#slack > .div1 > a:nth-child(5):hover{
+  background-color: #1da44c;
+}
+#slack > .div1 > p:nth-child(6){
+  margin-bottom: 7%;
+}
+#slack > .div1 > a:nth-child(7){
+  color: #00bf71;
+  font-weight: 800;
+}
+/*  */
+.end{
+  height: 800px;
+}
 /*  */
 /* MAKING ABOVE CSS RESPONSIVE */
 @media (max-width: 1880px){
@@ -429,6 +621,7 @@ ul{
     padding-right: 20%;
   }
   @media (max-width: 992px){
+    
     #nav2 > button,
     #nav2 > div:nth-child(3),
     #nav2 > div:nth-child(2){
@@ -440,6 +633,7 @@ ul{
       background-image: url('data:image/svg+xml;charset=utf8;base64,PHN2ZyB2aWV3Qm94PScwIDAgMzAgMzAnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zyc+PHBhdGggc3Ryb2tlPSdyZ2JhKDAsMCwwLDAuNSknIHN0cm9rZS13aWR0aD0nMicgc3Ryb2tlLWxpbmVjYXA9J3JvdW5kJyBzdHJva2UtbWl0ZXJsaW1pdD0nMTAnIGQ9J000IDdoMjJNNCAxNWgyMk00IDIzaDIyJy8+PC9zdmc+');
       background-color: transparent;
       border: none;
+      display: block;
     }
     #nav2{
       justify-content: space-around;
@@ -461,8 +655,23 @@ ul{
     #sec-3 > .sub > .div1 button{
       text-align: left;
     }
+
+
+    #review > h1{
+      width: 100%;
+    }
+    #review > div:nth-child(3){
+      margin-top: 10%;
+      width: 80%;
+      display: grid;
+      grid-template-columns: max-content;
+      gap: 20px;
+      justify-content: center;
+    }
+    
+    
   }
-  @media (max-width: 760px){
+  @media (max-width: 815px){
     #mid > #right{
       display: none;
     }
@@ -481,6 +690,38 @@ ul{
     }
     #sec-3 > .sub > .div1 button{
       text-align: left;
+    }
+    #slack > .div1{
+      width: 100%;
+      border: 1px solid red;
+      margin-bottom: 40px;
+    }
+    #slack > .div2{
+      margin-left: -20px;
+    }
+  }
+
+  @media (max-width: 1500px){
+    #sec-3 > .sub > .div2  > img{
+      width: 100%;
+      padding-right: 5%;
+    }
+    #review > .list > div{
+      position: relative;
+      left: 40px;
+    }
+    #review > .list > div:nth-child(1){
+      display: none;
+    }
+    #review  > h1{
+      width: 100%;
+    }
+    #review-bottom{
+      width: 100%;
+    }
+
+    #mid >  #right{
+      margin-top: 15%;
     }
   }
 }
