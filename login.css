@@ -1,0 +1,177 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Nunito Sans, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 24px;
+}
+
+#nav2{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: -1px 4px 10px 0 rgb(0 0 0 / 10%);
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  z-index: 12333;
+}
+#nav2 > img{
+  position: relative;
+  left: 20%;
+  width: 7.2%;
+}
+
+.main{
+  display: flex;
+  width: 60%;
+  margin: auto;
+  margin-top: 10%;
+  flex-wrap: wrap;
+}
+.main > .div1 {
+  width: 40%;
+}
+.main > .div1 > p:nth-child(1){
+  color: #25cf60;
+  font-size: 10px;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.main > .div1 > h1{
+  font-size: 52px;
+  line-height: 57px;
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
+.main > .div1 > h2{
+  color: #767676;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  padding-right: 6rem;
+  line-height: 36px;
+}
+.main > .div1 > button{
+  background-color: #25cf60;
+  border: none;
+  padding: 10px 50px;
+  border-radius: 26px;
+  display: flex;
+  align-items: center;
+  color: white;
+  position: relative;
+  left: 0;
+}
+.main > .div1 > button:hover{
+  background-color: #16b94f;
+  text-decoration: none;
+}
+.main > .div1 > button > img{
+  width: 30px;
+  margin-right: 15px;
+}
+.main > .div1 > .logos > img{
+  width: 100px;
+}
+.main > .div1 > .logos{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main > .div2{
+  border-radius: 26px;
+  padding: 60px 50px;
+  box-shadow: 0 4px 10px 2px rgb(0 0 0 / 17%);
+  margin-left: 100px;
+}
+
+.main > .div2 > h2{
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.main > .div2 > a{
+  border: 1px solid #e9e9e9;
+  padding: 8px 100px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #767676;
+  font-size: 14px;
+  font-weight: 700;
+}
+.main > .div2 > a > img{
+  width: 20px;
+  margin-right: 20px;
+}
+.main > .div2  input{
+  border-radius: 8px;
+  border: 1px solid rgb(233, 233, 233);
+  font-size: 14px;
+  padding: 9px 16px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.main > .div2  input:focus{
+  outline: none;
+  border: 1px solid #25cf60;
+}
+.main .fpass{
+  color: #25cf60;
+  font-size: 14px;
+  margin-bottom: 2rem;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+}
+.main button{
+  border-radius: 26px;
+  border: none;
+  padding: 15px 40px;
+  background-color: #25cf60;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  left: 150px;
+  bottom: 10px;
+}
+.signup{
+  color: #25cf60;
+  text-align: center;
+  margin-top: 15px;
+}
+
+@media (max-width:1750px) {
+  .main{
+    width: 80%;
+  }
+}
+@media (max-width:1250px) {
+  .main{
+    width: 100%;
+  }
+  .main > .div1{
+    padding-left: 40px;
+  }
+}
+@media (max-width:1050px) {
+  .main{
+    width: 100%;
+  }
+  
+  .main > .div1{
+    width: 80%;
+    margin-bottom: 100px;
+    padding-left: 140px;
+  }
+  .main > .div2{
+    margin-left: 5%;
+  }
+}
