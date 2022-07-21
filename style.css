@@ -570,10 +570,418 @@ ul{
   color: #00bf71;
   font-weight: 800;
 }
-/*  */
-.end{
-  height: 800px;
+/* PRICING SEC CSS */
+#pricing > .first {
+  text-align: center;
 }
+#pricing > .first > h2,
+#pricing > .first > p{
+  margin-top: 1.7%;
+}
+#pricing > .first > p:nth-child(1){
+  color: #25CF60;
+  font-weight: 700;
+
+}
+#pricing > .first > h2{
+  font-size: 2rem;
+  font-weight: 300;
+}
+#pricing > .first >p:nth-child(3){
+  color: #767676;
+  font-size: 18px;
+  width: 27%;
+  margin: auto;
+  margin-top: 1.7%;
+}
+
+
+#pricing > .second {
+  display: flex;
+  width: 378px;
+  margin: auto;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 7%);
+  border-radius: 26px;
+  margin-top: 2%;
+}
+#pricing > .second > p{
+  color: #b7b7b7;
+  cursor: pointer;
+
+}
+#pricing > .second > p:nth-child(1){
+  
+  border-radius: 26px;
+  padding: 15px 40px;
+}
+.doItS{
+  color: #25CF60;
+  font-weight: 700;
+}
+#pricing > .second > .doIt{
+  background-color: #25CF60;
+  color: white;
+  transition: .2s ease-in;
+}
+#pricing > .second > p:nth-child(2){
+  
+  border-radius: 26px;
+  padding: 15px 40px;
+  text-align: center;
+  
+}
+
+
+
+
+
+
+#pricing > .last {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: auto;
+  flex-wrap: wrap;
+}
+#pricing > .last > div{
+  box-shadow: 0 2px 4px 2px rgb(0 0 0 / 7%);
+  border-radius: 26px;
+  text-align: center;
+  margin-top: 7%;
+  width: 260px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+#pricing > .last > div > span{
+  font-size: 48px;
+  color: #25CF60;
+  font-weight: 700;
+  
+}
+#pricing > .last  hr{
+  border: 1px solid #25CF60;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+#pricing > .last  p{
+  color: #767676;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding-bottom: 15px;
+}
+#pricing > .last ul{
+  text-align: left;
+  position: relative;
+  left: 30px;
+  margin-top: 40px;
+}
+#pricing > .last li{
+  list-style-type: disc;
+
+}
+#pricing > .last a{
+  text-decoration: none;
+  color: white;
+  padding: 15px 55px;
+  font-weight: 700;
+  background-color: #25cf60;
+  border-radius: 26px;
+}
+#pricing > .last a:hover{
+  color:white !important;
+  background-color: #1da44c;
+}
+#pricing > .last > div div{
+  color: #25CF60;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 26px;
+  position: relative;
+  bottom: 60px;
+}
+#pricing > .last > .pro{
+  width: 270px;
+  background-color: #25cf60;
+  color: white;
+}
+#pricing > .last > .pro > a{
+  background-color: white;
+  color: #25CF60;
+}
+#pricing > .last > .pro > hr{
+  border: 1px solid white;
+}
+#pricing > .last > .pro > a:hover{
+  color: #25CF60 !important;
+}
+#popular{
+  color: #25cf60;
+  background-color: #fff;
+  border-radius: 26px;
+  font-size: 10px;
+  padding: 6px 39px;
+  position: absolute;
+  top: -15px;
+  left: 35px;
+}
+#popu{
+  position: relative;
+  left: 20px;
+}
+#gOut{
+  padding-top: 20px;
+  margin-bottom: -45px;
+}
+
+.secure-payment{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4em;
+}
+.secure-payment > p{
+  color: #767676;
+  padding-left: 20px;
+  line-height: 26px;
+}
+
+.yellow-one{
+  background-image: url('https://cdn-m.timecamp.com/img/landing-page/time-tracking-biz/group-9.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-top: 2.2rem;
+  text-align: center;
+  flex-wrap: wrap;
+  position: relative;
+  background-color: #F7B801;
+  width: 60%;
+  margin: auto;
+  border-radius: 26px;
+  margin-top: 5%;
+  padding-bottom: 3%;
+}
+.yellow-one > h1{
+  font-size: 48px;
+  width: 60%;
+  line-height: 50px;
+  margin: auto;
+}
+.yellow-one > p:nth-child(2){
+  width: 55%;
+  font-size: 18px;
+  font-weight: 600;
+  margin: auto;
+  margin-top: 3%;
+}
+.yellow-one > input{
+  width: 30%;
+  font-size: 14px;
+  border-radius:26px;
+  box-shadow: 0 2px 4px 2px rgb(0 0 0 / 7%);
+  background-color: white;
+  outline: none;
+  border: none;
+  padding: 1rem 4rem 1rem 1.5rem;
+}
+.yellow-one > button{
+  padding:12px 10px;
+  font-weight: 700;
+  box-shadow: 0 0 0 3px #25cf60;
+  background-color: #25cf60;
+  border-radius: 26px;
+  border: none;
+  width: 20%;
+  color: #fff;
+  font-size: 16px;
+  position: relative;
+  right: 50px;
+  margin: 5% 0% 5% 0%;
+}
+.yellow-one > p:nth-child(5){
+  font-size: 14px;
+  color: #767676;
+  font-weight: 600;
+  line-height: 21px;
+}
+.yellow-one > p:nth-child(5) > span{
+  color:#1b1b20
+}
+.fq{
+  width: 60%;
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.fq > h2{
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 5%;
+  text-align: center;
+}
+.fq > button{
+  border: none;
+  background-color: white;
+  margin-left: 40px;
+}
+.fq > button > h2{
+  margin: 12% 0%;
+}
+#fqbtn2 > h2,
+#fqbtn1 > h2{
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+
+#blog{
+  background-color: #f3f3f3;
+
+}
+#blog > .main{
+  width: 60%;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+#blog > .main > p{
+  color: #25cf60;
+  font-weight: 700;
+  margin-bottom: 3%;
+}
+#blog > .main > .sub{
+  display: flex;
+  justify-content: space-between;
+}
+#blog > .main > .sub > h1{
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 5%;
+}
+#blog > .main > .sub > button{
+  border: none;
+  background-color: #25cf60;
+  border-radius: 26px;
+  color: white;
+  position: absolute;
+  padding: 15px 40px;
+  font-weight: 700;
+  font-size: 16px;
+  left: 68.8%;
+}
+#blog > .main > .sub > a:hover{
+  background-color: #1da44c;
+}
+#blog > .main > .cards{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+#blog > .main > .cards> div > img{
+  width: 110%;
+}
+#blog > .main > .cards> div{
+  width: 80%;
+  line-height: 30px;
+  
+}
+#blog > .main > .cards h2{
+  font-size: 24px;
+  font-weight: 800;
+  margin: 10px 0px 10px 10px;
+}
+#blog > .main > .cards a{
+  margin: 10px 0px 10px 10px;
+  color: #25cf60;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+#footer{
+  display: flex;
+  width: 60%;
+  margin: auto;
+  margin-top: 8%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#footer span{
+  font-weight: 800;
+  font-size: 18px;
+  color: #1b1b20;
+}
+#footer p{
+  color: rgb(27, 27, 32);
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #A1A1A3;
+}
+#footer p:hover{
+  color: #f7b801;
+  text-decoration: none;
+  cursor: pointer;
+}
+#footer .a{
+  margin-top: 20px;
+  color: #A1A1A3;
+}
+.socials{
+  margin: auto;
+  width: 6%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7%;
+}
+
+.end{
+  width: 15%;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+.end p:nth-child(1){
+  font-size: 12px;
+  font-weight: 400;
+  opacity: 0.6;
+  margin-bottom: -2px;
+}
+.end p:last-child{
+  font-size: 11px;
+  font-weight: 400;
+  opacity: 0.6;
+}
+.language{
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 2%;
+}
+.language > button{
+  display: flex;
+  justify-content: space-between;
+  border-radius: 26px;
+  padding: 10px 10px;
+  border: 1px solid black;
+}
+.language > button > i{
+  margin-right: 7px;
+  margin-left: 7px;
+}
+.final_svg{
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 30%) 0px 4px 12px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  padding: 12px;
+  position: sticky;
+  right: 20px;
+  z-index: 1;
+  bottom: 20px;
+  left: 96%;
+}
+
+/*  */
+
 /*  */
 /* MAKING ABOVE CSS RESPONSIVE */
 @media (max-width: 1880px){
@@ -582,12 +990,25 @@ ul{
   }
 }
 @media (max-width: 1430px){
+  
   #ptour{
     justify-content: flex-start;
   }
   #ptour > .p-div1{
     margin-left: 10%;
     padding-right: 0%;
+  }
+  #pricing > .last{
+    width: 90%;
+  }
+  .yellow-one{
+    width: 80%;
+  }
+  .fq{
+    width: 80%;
+  }
+  #blog > .main{
+    width: 80%;
   }
 }
 @media (max-width: 1830px){
@@ -621,7 +1042,9 @@ ul{
     padding-right: 20%;
   }
   @media (max-width: 992px){
-    
+    .yellow-one{
+      width: 100%;
+    }
     #nav2 > button,
     #nav2 > div:nth-child(3),
     #nav2 > div:nth-child(2){
@@ -693,11 +1116,19 @@ ul{
     }
     #slack > .div1{
       width: 100%;
-      border: 1px solid red;
       margin-bottom: 40px;
     }
     #slack > .div2{
       margin-left: -20px;
+    }
+    #pricing > .last{
+      overflow: hidden;
+    }
+    .yellow-one input{
+      width: 40%;
+    }
+    .yellow-one button{
+      width: 30%;
     }
   }
 
@@ -722,6 +1153,19 @@ ul{
 
     #mid >  #right{
       margin-top: 15%;
+    }
+    #pricing > .last{
+      width: 90%;
+    }
+    #pricing > .last #popu{
+      position: relative;
+      top: -75px;
+    }
+    #blog > .main > .sub > button{
+      display: none;
+    }
+    #blog > .main > .sub > h1{
+      line-height: 45px;
     }
   }
 }

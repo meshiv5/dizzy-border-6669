@@ -31,3 +31,25 @@ function nav(){
   // }
 }
 
+let button = document.querySelector('#pricing > .second > p');
+button.addEventListener('click',run);
+function run(){
+  if(document.querySelector('#pricing > .second > p:nth-child(2)').classList.contains('doIt')){
+    document.querySelector('#pricing > .second > p:nth-child(2)').classList.remove('doIt');
+  }
+  document.querySelector('#xd').innerText = '6.3'
+  document.querySelector('#dx').innerText = ' 9'
+  this.classList.toggle('doIt');
+  document.querySelector('#pricing > .second > p:nth-child(1) > span').style.color = 'white'
+}
+let button2 = document.querySelector('#pricing > .second > p:nth-child(2)');
+button2.addEventListener('click',run2);
+function run2(){
+  if(document.querySelector('#pricing > .second > p').classList.contains('doIt')){
+    document.querySelector('#pricing > .second > p').classList.remove('doIt');
+    document.querySelector('#pricing > .second > p:nth-child(1) > span').style.color = '#25CF60'
+  }
+  document.querySelector('#xd').innerText = '7'
+  document.querySelector('#dx').innerText = '10'
+  this.classList.toggle('doIt');
+}
