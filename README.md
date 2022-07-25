@@ -1,4 +1,4 @@
-## TimeCamp Clone - Unit 2 Clone
+## TimeCamp Clone - Unit 2
 I Cloned TimeCamp Website As Project Of Unit - 2 
 ## What is TimeCamp
 
