@@ -17,6 +17,6 @@ In the case when several applications are open, TimeCamp detects that the progra
 HTML , CSS & JAVASCRIPT
 
 ## 🚀 About Me
-I'm a full stack developer...
+I'm a full stack developer...<br />
 This is my Github profile:https://github.com/meshiv5 <br />
 This is my LinkIn profile:https://www.linkedin.com/in/meshiv5
